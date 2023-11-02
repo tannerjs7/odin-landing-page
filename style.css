@@ -5,11 +5,15 @@ body {
 
 .top {
   display: flex;
+  flex-direction: column;
   background-color: navy;
+  color: white;
+  padding: 20px 100px 100px;
+  gap: 50px;
 }
 
 .header {
-  color: white;
+  display: flex;
 }
 
 .header-links {
@@ -17,4 +21,21 @@ body {
   margin: 0 0 0 auto;
   list-style-type: none;
   padding: 0;
+  gap: 12px;
+}
+
+.sub-header {
+  display: flex;
+}
+
+#sub-header-left {
+  flex: 1 1 50%;
+}
+
+#sub-header-right {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
 }
