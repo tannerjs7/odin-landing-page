@@ -7,7 +7,7 @@ body {
 .one {
   display: flex;
   flex-direction: column;
-  background-color: navy;
+  background-color: #1F2937;
   color: white;
   padding: 20px 100px 100px;
   gap: 50px;
@@ -17,12 +17,19 @@ body {
   display: flex;
 }
 
+#logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
 .header-links {
   display: flex;
   margin: 0 0 0 auto;
   list-style-type: none;
   padding: 0;
   gap: 12px;
+  font-size: 18px;
+  color: #E5E7EB
 }
 
 .sub-header {
@@ -39,6 +46,18 @@ body {
   justify-content: center;
   align-items: center;
   background-color: gray;
+}
+
+#awesome {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8
+}
+
+#info {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
 }
 
 .rounded-square {
@@ -59,7 +78,22 @@ body {
 }
 
 .three {
-  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  padding: 100px;
+}
+
+#quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+#credit {
+  align-self: flex-end;
 }
 
 .four {
@@ -68,11 +102,15 @@ body {
 }
 
 .action {
-  background-color: blue;
+  background-color: #3882F6;
 }
 
 .five {
   text-align: center;
-  background-color: darkblue;
+  background-color: #1F2937;
   color: white;
+}
+
+button {
+  background-color: #3882F6;
 }
