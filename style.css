@@ -1,9 +1,10 @@
 body {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
-.top {
+.one {
   display: flex;
   flex-direction: column;
   background-color: navy;
@@ -38,4 +39,40 @@ body {
   justify-content: center;
   align-items: center;
   background-color: gray;
+}
+
+.rounded-square {
+  height: 100px;
+  width: 100px;
+  border: 5px solid skyblue;
+  margin: 20px;
+}
+
+.two {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  margin: 0px 100px;
+}
+
+.three {
+  background-color: lightgray;
+}
+
+.four {
+  display: flex;
+  padding: 50px;
+}
+
+.action {
+  background-color: blue;
+}
+
+.five {
+  text-align: center;
+  background-color: darkblue;
+  color: white;
 }
