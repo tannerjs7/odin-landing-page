@@ -1,4 +1,5 @@
 body {
+  font-family: "arial";
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -9,8 +10,8 @@ body {
   flex-direction: column;
   background-color: #1F2937;
   color: white;
-  padding: 20px 100px 100px;
-  gap: 50px;
+  padding: 10px 100px 100px;
+  gap: 70px;
 }
 
 .header {
@@ -27,13 +28,14 @@ body {
   margin: 0 0 0 auto;
   list-style-type: none;
   padding: 0;
-  gap: 12px;
-  font-size: 18px;
+  gap: 15px;
+  font-size: 14px;
   color: #E5E7EB
 }
 
 .sub-header {
   display: flex;
+  gap: 30px;
 }
 
 #sub-header-left {
@@ -54,27 +56,39 @@ body {
   color: #F9FAF8
 }
 
+.two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 50px 80px;
+}
+
 #info {
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
-}
-
-.rounded-square {
-  height: 100px;
-  width: 100px;
-  border: 5px solid skyblue;
-  margin: 20px;
-}
-
-.two {
-  text-align: center;
+  margin-bottom: 30px;
 }
 
 .container {
   display: flex;
-  gap: 10px;
+  gap: 30px;
   margin: 0px 100px;
+}
+
+.rounded-square {
+  height: 130px;
+  width: 130px;
+  border: 3px solid #3882F6;
+  border-radius: 15px;
+  margin-bottom: 8px;
+}
+
+.under-square {
+  width: 130px;
+  color: gray;
+  font-size: 14px;
 }
 
 .three {
@@ -83,34 +97,49 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #E5E7EB;
-  padding: 100px;
+  padding: 70px 120px;
 }
 
 #quote {
   color: #1F2937;
   font-size: 36px;
-  font-weight: 900;
+  font-style: italic;
 }
 
 #credit {
   align-self: flex-end;
+  font-weight: 900;
 }
 
 .four {
-  display: flex;
-  padding: 50px;
+  padding: 50px 100px;
 }
 
 .action {
+  display: flex;
+  border-radius: 5px;
+  color: white;
   background-color: #3882F6;
+  padding: 20px 100px;
 }
 
 .five {
   text-align: center;
   background-color: #1F2937;
   color: white;
+  padding: 20px 0px;
 }
 
 button {
   background-color: #3882F6;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 22px;
+  color: white;
+}
+
+#action-button {
+  border: 1px solid white;
+  margin-left: auto;
+  align-self: center;
 }
